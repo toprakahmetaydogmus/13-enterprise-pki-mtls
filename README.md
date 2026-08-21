@@ -1,27 +1,27 @@
-# Enterprise PKI Hierarchy & Automated Mutual TLS (mTLS) Engine
+# 🔐 Enterprise PKI Hierarchy & Automated Mutual TLS (mTLS) Engine
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/13-enterprise-pki-mtls?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/13-enterprise-pki-mtls/releases)
-[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Quality Gate](https://github.com/toprakahmetaydogmus/13-enterprise-pki-mtls/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/13-enterprise-pki-mtls/actions)
-[![Cryptography](https://img.shields.io/badge/Security-X.509%20%7C%20mTLS-green.svg)](#)
 
-Geliştirici: **Toprak Ahmet Aydoğmuş**
-
-Root CA, Intermediate CA ve Leaf sertifikalarından oluşan hiyerarşik PKI mimarisi ve karşılıklı sertifika doğrulama (mTLS) motoru.
+Developer: **Toprak Ahmet Aydoğmuş**
 
 ---
 
-## ⚡ Hızlı Başlangıç
+## 🎯 1. Overview
+Cryptographic PKI management suite automating Root CA, Intermediate Issuing CA, and Leaf certificate issuance (RSA 4096 / ECDSA P-384) with strict mTLS handshake verification, CRL generation, and OCSP response validation.
+
+---
+
+## 🚀 2. Quick Start
 
 ```bash
 git clone https://github.com/toprakahmetaydogmus/13-enterprise-pki-mtls.git
 cd 13-enterprise-pki-mtls
-
-python scripts/pki_manager.py
+python -m unittest discover tests/
 ```
 
 ---
 
-## 📜 Lisans
-MIT License - **Toprak Ahmet Aydoğmuş**
+## 📜 3. License
+Licensed under the [MIT License](LICENSE).  
+Developer: **Toprak Ahmet Aydoğmuş**.
